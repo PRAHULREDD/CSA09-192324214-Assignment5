@@ -1,0 +1,7 @@
+=== Multi-Campus Bus Pass Migration Failure Report ===
+Source File: C:\Users\rr001\Downloads\CSA09-192324214-Assignment5\TaskB4\sample_passes_input.csv
+Total Rejected Records: 3
+
+Line 6 | Parse error (NumberFormatException) | Raw: P2026-005,MAIN,192311005,Sneha Nair,12,Koyambedu,2027-04-30,INVALID_FEE
+Line 8 | Expected 8 columns, got 2 | Raw: P2026-007,CORRUPT_ROW_MISSING_COLUMNS
+Line 9 | Route/Amount must be positive | Raw: P2026-008,WEST,192311008,Ananya Sharma,18,Avadi,2027-04-30,-150.00
